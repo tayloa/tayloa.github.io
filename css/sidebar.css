@@ -1,20 +1,23 @@
 .navbar-fixed-left {
-  width: 140px;
+  width: 250px;
   position: fixed;
-  border-right: thick solid white;
   height: 100%;
-  background-color: #CC2936;
+  background-color: #3A3238;
 }
 
+.navbar-nav {
+  padding-top: 150px;
+}
 .navbar-fixed-left .navbar-nav > li {
-  float: none;  /* Cancel default li float: left */
-  width: 139px;
-  border-right: thick solid white;
-  background-color: #CC2936;
+  /*float: none;   Cancel default li float: left */
+  text-align: center;
+  width: 250px;
 }
 
 .navbar-fixed-left + .container {
-  padding-left: 160px;
+  padding-left: 300px;
+  padding-top: 150px;
+  display: inline-block;
 }
 
 /* On using dropdown menu (To right shift popuped) */
