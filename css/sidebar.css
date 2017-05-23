@@ -1,22 +1,24 @@
 .navbar-fixed-left {
-  width: 250px;
   position: fixed;
-  height: 100%;
   background-color: #3A3238;
+  border-radius: 5px; 
+  bottom: 40%;
+  top: auto;
 }
 
-.navbar-nav {
-  padding-top: 150px;
-}
 .navbar-fixed-left .navbar-nav > li {
-  /*float: none;   Cancel default li float: left */
+  float: none;   /*Cancel default li float: left*/ 
   text-align: center;
-  width: 250px;
+  font-weight: 600; 
+  font-size: 15px;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .navbar-fixed-left + .container {
-  padding-left: 300px;
-  padding-top: 150px;
   display: inline-block;
 }
 
